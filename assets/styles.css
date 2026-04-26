@@ -89,12 +89,12 @@ time {
 
 h1 {
     max-width: 16ch;
-    margin-top: 0.35rem;
+    margin-top: 0.75rem;
     color: var(--text);
     font-size: clamp(2.75rem, 7vw, 4.75rem);
     font-weight: 760;
-    line-height: 1.02;
-    letter-spacing: 0;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
 }
 
 .intro,
@@ -107,7 +107,7 @@ h1 {
 }
 
 .role {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     color: var(--accent-strong);
     font-size: 1rem;
     font-weight: 700;
