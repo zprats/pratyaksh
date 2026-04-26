@@ -13,9 +13,9 @@
     --bg: #0c0a09;
     --surface: #151210;
     --surface-hover: #1e1a16;
-    --text: #ede6db;
-    --text-bright: #faf6ef;
-    --muted: #8a817a;
+    --text: #f5f2ed;
+    --text-bright: #ffffff;
+    --muted: #9e968e;
     --line: #2a2521;
     --accent: #c9784e;
     --accent-hover: #dfa07a;
@@ -49,7 +49,7 @@ body {
     color: var(--text);
     font-family: var(--font-body);
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 450;
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -391,7 +391,7 @@ h1 {
 
 .post-content {
     padding-top: 2.5rem;
-    color: #d5cfc6;
+    color: #e8e3db;
     font-size: 1.06rem;
     line-height: 1.8;
 }
