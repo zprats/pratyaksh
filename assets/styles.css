@@ -91,8 +91,9 @@ h1 {
     max-width: 16ch;
     margin-top: 0.35rem;
     color: var(--text);
-    font-size: clamp(3rem, 10vw, 5.75rem);
-    line-height: 0.95;
+    font-size: clamp(2.75rem, 7vw, 4.75rem);
+    font-weight: 760;
+    line-height: 1.02;
     letter-spacing: 0;
 }
 
