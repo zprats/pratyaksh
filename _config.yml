@@ -1,0 +1,13 @@
+title: Pratyaksh Sharma
+description: Personal site and writing by Pratyaksh Sharma.
+url: ""
+baseurl: ""
+permalink: /blog/:title/
+markdown: kramdown
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post

@@ -1,0 +1,27 @@
+---
+layout: default
+title: Blog
+description: Writing by Pratyaksh Sharma.
+---
+
+<section class="page-heading">
+    <p class="eyebrow">Writing</p>
+    <h1>Blog</h1>
+    <p>Notes, essays, and project writeups.</p>
+</section>
+
+{% if site.posts.size > 0 %}
+    <div class="post-list">
+        {% for post in site.posts %}
+            <article class="post-preview">
+                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                {% if post.description %}
+                    <p>{{ post.description }}</p>
+                {% endif %}
+            </article>
+        {% endfor %}
+    </div>
+{% else %}
+    <p class="muted">No posts yet.</p>
+{% endif %}
