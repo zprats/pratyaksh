@@ -105,6 +105,13 @@ h1 {
     font-size: 1.15rem;
 }
 
+.role {
+    margin-top: 1rem;
+    color: var(--accent-strong);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 .actions {
     display: flex;
     flex-wrap: wrap;
