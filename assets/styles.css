@@ -470,6 +470,15 @@ h1 {
     margin-top: 0.4rem;
 }
 
+.post-content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 2.25rem auto;
+    border-radius: 8px;
+    border: 1px solid var(--line);
+}
+
 
 /* ===== ENTRANCE ANIMATIONS ===== */
 
